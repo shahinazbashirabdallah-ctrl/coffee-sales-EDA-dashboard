@@ -1,102 +1,98 @@
-# ☕ Coffee Sales EDA Dashboard
+☕ Coffee Sales EDA Dashboard
+📌 Project Overview
 
-## 📌 Project Overview
-This project was developed as part of a data analytics workshop organized by **Semicolon**.  
-The goal was to perform exploratory data analysis (EDA) on coffee sales data and build a dashboard that supports data-driven business decisions.
+This project analyzes coffee sales data to identify revenue drivers, customer behavior patterns, and product performance insights using Exploratory Data Analysis (EDA) and dashboard visualization.
 
-The analysis focuses on improving **revenue performance, customer behavior understanding, product optimization, and market distribution insights**.
+The goal is to support data-driven business decisions that improve revenue efficiency and reduce performance risks.
 
----
+🎯 Business Objective
 
-## 🎯 Business Objectives
-This project answers key business questions:
+The analysis focuses on answering:
 
-- How effective is the loyalty card program?
-- Which coffee products and package sizes generate the highest revenue?
-- Which products are underperforming and require improvement?
-- How concentrated is revenue across geographic regions?
-- Which product combinations perform best?
+What drives total revenue distribution?
+How effective is the loyalty program in increasing revenue per customer?
+Which products and package sizes generate the highest revenue?
+How concentrated is revenue across geographic markets?
+Which product combinations maximize sales performance?
+📊 Dataset Overview
 
----
-
-## 📊 Dataset Overview
 The dataset includes:
 
-- Sales transactions
-- Customer information
-- Product details (coffee type, roast type, package size)
-- Geographic data
+Sales transactions
+Customer data
+Product attributes (coffee type, roast type, package size)
+Geographic information
+📈 Key Performance Insights (KPIs)
+💰 Revenue Distribution
+2.5 kg package size contributes >50% of total revenue
+Revenue is highly concentrated in a single product segment
 
----
+👉 Indicates low diversification risk in product structure
 
-## 🧠 Methodology
+👥 Customer Loyalty Performance
+Loyalty card users show:
+Lower average order value than non-members
+Weak repeat purchase behavior
 
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- KPI definition and calculation
-- Data visualization and dashboard building
-- Business insights extraction
+👉 Loyalty program currently shows low measurable ROI
 
----
+☕ Product Performance
+Light Roast = #1 revenue-generating product category
+Robusta = lowest-performing product category
 
-## 📊 Dashboard Features
+👉 Performance gap indicates pricing or positioning inefficiency
 
-- Revenue by coffee type
-- Revenue by roast type
-- Package size performance analysis
-- Geographic sales distribution
-- Loyalty program analysis
-- Customer purchasing behavior
-- Top-performing product combinations
+🌍 Geographic Revenue Distribution
+United States accounts for the majority of total revenue
 
----
+👉 Revenue is geographically concentrated, increasing dependency risk
 
-## 🔎 Key Insights
+📦 Package Size Performance
+2.5 kg package:
+Generates >50% of total revenue
+Maintains stable profitability across all sizes
 
-### Loyalty Program
-- Loyalty card members generate **lower revenue per order**
-- Very weak repeat purchase behavior
-→ Program is not effective
+👉 Strong opportunity for bundling and upselling strategies
 
-### Package Size
-- **2.5 kg package contributes more than 50% of revenue**
-- Profit margin remains consistent across sizes
+🔗 Product Combination Insights
+Highest-performing combination:
+Excelsa + Light Roast
 
-### Coffee Type Performance
-- **Robusta underperforms** compared to other types
-→ Possible pricing or positioning issue
+👉 Identified as the most revenue-efficient product mix
 
-### Geographic Insight
-- Revenue is highly concentrated in the **United States**
-→ High dependency risk
+📊 Dashboard Features
 
-### Product Performance
-- **Light Roast is the best-performing category**
-- Best combination: **Excelsa + Light Roast**
+The dashboard provides interactive analysis of:
 
----
+Revenue by coffee type
+Revenue by roast type
+Package size performance
+Geographic sales distribution
+Loyalty program performance
+Product combinations
+Customer behavior patterns
+💡 Business Recommendations
+Redesign loyalty program to increase customer retention rate
+Increase focus on 2.5 kg package promotion (highest revenue driver)
+Reassess pricing strategy for Robusta products
+Diversify revenue beyond the United States market
+Prioritize Light Roast + Excelsa combinations in marketing campaigns
+📌 Key Takeaway
+>50% of revenue comes from one package size
+Loyalty program is not effectively increasing customer value
+Revenue is geographically concentrated
+A small number of products drive majority of performance
 
-## 📈 Business Recommendations
+👉 The business has high optimization potential through targeted strategic improvements
 
-- Redesign loyalty program to improve retention
-- Promote 2.5 kg packages with bundle offers
-- Re-evaluate Robusta pricing and marketing strategy
-- Diversify revenue across regions
-- Focus marketing on Light Roast products
+🛠 Tools Used
+Excel
+Data Cleaning & Analysis
+Exploratory Data Analysis (EDA)
+Data Visualization
+Dashboard Development
+👩‍💻 Author
 
----
-
-## 🛠 Tools Used
-
-- Excel
-- Data Analysis Techniques
-- Data Visualization
-- Dashboard Development
-
----
-
-## 👩‍💻 Author
-
-**Shahinaz Bashir**  
-Aspiring Data Analyst | Background in Chemical Engineering  
-Passionate about turning raw data into actionable business insights
+Shahinaz Bashir
+Aspiring Data Analyst | Chemical Engineering Background
+Focused on transforming data into quantified business impact
